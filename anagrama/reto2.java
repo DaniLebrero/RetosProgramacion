@@ -12,7 +12,7 @@ public class reto2 {
 
     private static Boolean findAnagram(String string, String string2) {
         
-        if(string.toLowerCase().equals(string2.toLowerCase())){
+        if(string.equalsIgnoreCase(string2)){
             return false;
         }
         // Convierte las palabras a arrays de caracteres
